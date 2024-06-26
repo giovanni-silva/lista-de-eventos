@@ -41,3 +41,11 @@ Firewalls e Antivírus: Alguns firewalls ou softwares de segurança podem bloque
 Atualizações e Modificações: Se fizer alterações no código, o servidor de desenvolvimento detectará automaticamente e recarregará a aplicação no navegador.
 
 Seguindo esses passos, sua aplicação React deverá rodar sem problemas em qualquer máquina onde o Node.js e npm estejam instalados.
+
+Importante rodar também após tudo isso os seguintes comandos no terminal:
+
+npm install axios
+
+npm audit fix
+
+npm audit fix --force
